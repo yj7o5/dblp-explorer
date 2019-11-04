@@ -1,0 +1,1 @@
+I first ran it with a sample of the file with 100000 lines and it took around ~200 secs to read the whole file while the build up of tier with 3 levels it was barely a sec all under the second. This is due to loading the file content in memory which provides faster lookup in O(1). Further reading the whole file took ~4 minutes that is because its sitting around 11 Gigs. 
